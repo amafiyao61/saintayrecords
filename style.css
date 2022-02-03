@@ -1,4 +1,3 @@
-
 *{
     margin: 0px;
     padding: 0px;
@@ -73,7 +72,7 @@ header .navbar li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(.images WhatsApp Image 2021-12-26 at 22.15.25.jpg);
+    <img src="unamed.jpg">
     background-size: auto;
 }
 
