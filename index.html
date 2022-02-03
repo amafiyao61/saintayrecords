@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Saintay Records</title>
+<body>
+<header>
+    <a href="https://bit.ly/34fDG0y" class="logo"><span>Saintay Records</a>
+    <div class="menuToggle" onclick="toggleMenu();"></div>
+    <ul class="navbar">
+        <li><a href="#banniere" onclick="toggleMenu();">Exclusivités</a></li>
+        <li><a href="#artistes" onclick="toggleMenu();">Artistes</a></li>
+        <li><a href="#apropos" onclick="toggleMenu();">À propos</a></li>
+        <li><a href="#store" onclick="toggleMenu();">Store</a></li>
+    </ul>
+</header>
+<section class="banniere" id="banniere"> 
+    <div class="contenu"> 
+        <h2>UglyDey & Mvnuka - Studio (feat.Remso)</h2>
+        <p>Disponible sur toutes les plateformes de streaming</p>
+        <a href="https://apple.co/3IY8yBt" class="btn1">Apple Music</a> 
+        <a href="https://spoti.fi/349w3J9" class="btn2">Spotify</a>
+    </div> 
+</section>
+<section class="apropos" id="apropos">
+    <div class="row">
+        <div class="col50">
+            <h2 class="titre-texte">Qui Sommes-Nous?</h2>
+            <p> Saintay Records est un label ivoirien indépendant de musique, situé à Lille. 
+                Il a été fondé le 3 novembre 2018 par Amafi Yao, Yann Alexandre De Bruchard et Emmanuel Koffi. 
+                Ce label compte aujourd’hui à son actif 2 artistes principaux qui sont UglyDey et Mvnuka.</p>
+            <p> Tout a commencé au Lycée International Jean Mermoz d'Abidjan.
+                Dans les débuts, c’était tout simplement un lycéen en classe de terminale qui voulait pousser son meilleur ami, 
+                passioné de musique à vivre pleinement son rêve.Amafi Yao après avoir découvert le talent de Deydeydey, 
+                aujourd'hui UglyDey se met à faire la publicité de ses morceaux dans tout le lycée.</p>
+             </p>Ces deux amis se retrouvent après l'obention de leur baccalauréat,en France en Septembre 2016 pour leurs études universitaires. 
+                Et c’est donc 2 ans après qu’ils décident de lancer leur propre label avec l’un de leur ami et frère Mvnuka. 
+                C’est ainsi qu’est né SAINTAY RECORDS.
+            </p>
+            
+        </div>
+        <div class="col50">
+            <div class="img">
+                <img src="./images/WhatsApp Image 2021-12-06 at 06.11.13.jpeg" alt="image">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="artistes" id="artistes">
+    <div class="titre">
+        <h2 class="titre-texte">Artistes</h2>
+    </div>
+    <div class="contenu">
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/WhatsApp Image 2022-01-23 at 15.54.43.jpeg" alt="">
+            </div>
+            <div class="text">
+                <h3><a href="https://bit.ly/349LFML">UglyDey</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/mvnuka.jpeg" alt="">
+            </div>
+            <div class="text">
+                <h3><a href="https://bit.ly/3AVcOyI">Mvnuka</h3>
+            </div>
+        </div>
+       
+        </div>
+    </div>
+ </div>
+ <div class="titre">
+    <a href="https://bit.ly/34fDG0y" class="btn1">Voir Plus</a>
+ </div>
+</section>
+<section class="store" id="store">
+    <div class="titre">
+        <h2 class="titre-texte">Album</h2>
+        <a href="https://ffm.to/pbzndeb" class="btn1">Streamez Ici</a>
+        <a href="https://bit.ly/3GnK6aL" class="btn2">Youtube</a>
+    </div>
+    <div class="contenu">
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/1000x1000bb.webp" alt="">
+            </div>
+            <div class="text">
+                <h3></h3>
+            </div>
+        </div>
+        
+
+ </section>
+ <script type="text/javascript">
+     window.addEventListener('scroll', function(){
+         const header =document.querySelector('header');
+         header.classList.toggle("sticky", window.scrollY > 0 );
+     });
+
+     function toggleMenu(){
+         const tmenuToggle = document.querySelector('.menuToggle');
+         const navbar = document.querySelector('.navbar');
+         navbar.classList.toggle('active');
+         menuToggle.classList.toggle('active');
+     }
+ </script>
+</body>
+</html>
