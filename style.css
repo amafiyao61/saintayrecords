@@ -72,7 +72,7 @@ header .navbar li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    <img src="unamed.jpg">
+    <img> src="unamed.jpg"
     background-size: auto;
 }
 
